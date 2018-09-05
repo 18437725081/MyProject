@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84e8601e-9bbd-41b7-80cf-10bff9201f50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quarts/Quarts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/TestCode/TestCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/TestCode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-parent/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search/e3-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search/e3-search-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-manager/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-manager/e3-manager-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-manager/e3-manager-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-content/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-content/e3-content-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-content/e3-content-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-content-web/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search-web/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-shopcart-web/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-sso/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-sso/e3-sso-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-sso/e3-sso-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-sso-web/target/" />
+    <ignored path="$PROJECT_DIR$/../e3shopcart/e3-shopcart-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../e3shopcart/e3-shopcart-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3shopcart/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="667902396">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.175" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="1" />
+          <entry key="classpath" value="1" />
+          <entry key="java" value="4" />
+          <entry key="prefs" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Eclipse" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="82" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wangshuai" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="H:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="H:\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-4" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="e3-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3shopcart" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534951012130" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Quarts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in e3-content-web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e3-content-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in e3-content-web" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-content" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-content" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-manager" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-manager" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-manager-web" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-manager-web" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-parent" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-content" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-content" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-manager" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-manager" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-manager-web" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-manager-web" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\EclipseWorkSpace\e3-parent" />
+          <option name="myCopyRoot" value="E:\EclipseWorkSpace\e3-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84e8601e-9bbd-41b7-80cf-10bff9201f50" name="Default Changelist" comment="" />
+      <created>1534866470644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534866470644</updated>
+      <workItem from="1534866474282" duration="1555000" />
+      <workItem from="1534948150045" duration="2456000" />
+      <workItem from="1535029611472" duration="1314000" />
+    </task>
+    <task id="LOCAL-00001" summary="电商项目">
+      <created>1534868148764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534868148764</updated>
+    </task>
+    <task id="LOCAL-00002" summary="电商项目">
+      <created>1534949203970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534949203970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="e3商城后台代码">
+      <created>1534950037583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534950037583</updated>
+    </task>
+    <task id="LOCAL-00004" summary="e3商城后台代码">
+      <created>1534950204667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534950204667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="e3商城后台代码">
+      <created>1534950472261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534950472261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5325000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25755286" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5007553" side_tool="true" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924472" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2847432" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="电商项目" />
+    <MESSAGE value="e3商城后台代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="e3商城后台代码" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nyist/e3/result/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/nyist/e3/content/service/ContentCatagoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/.settings/org.eclipse.m2e.core.prefs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/nyist.e3:e3shopcart:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>nyist.e3:e3shopcart:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="989.5" y="267.0">nyist.e3:e3shopcart:0.0.1-SNAPSHOT</node>
+            <node x="993.0" y="188.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT</node>
+            <node x="1671.75" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/joda-time:joda-time:jar:2.5</node>
+            <node x="1528.75" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="1406.75" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/commons-io:commons-io:jar:1.3.2</node>
+            <node x="1277.75" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/commons-net:commons-net:jar:3.3</node>
+            <node x="1113.75" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="1183.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
+            <node x="1047.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
+            <node x="804.1818181818182" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="939.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="782.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="639.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
+            <node x="503.75" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2</node>
+            <node x="559.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="444.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="265.0" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4</node>
+            <node x="329.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="242.5" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
+            <node x="115.0" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/fastdfs_client:fastdfs_client:jar:1.25</node>
+            <node x="28.0" y="79.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.7.2</node>
+            <node x="0.0" y="0.0">nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.7.2/org.apache.commons:commons-pool2:jar:2.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0">
+              <point x="36.0" y="-14.5" />
+              <point x="1221.75" y="54.0" />
+              <point x="1266.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/org.slf4j:slf4j-api:jar:1.6.4">
+              <point x="30.75" y="-14.5" />
+              <point x="357.25" y="54.0" />
+              <point x="377.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16">
+              <point x="-30.75" y="-14.5" />
+              <point x="295.75" y="54.0" />
+              <point x="276.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/joda-time:joda-time:jar:2.5">
+              <point x="42.75" y="-14.5" />
+              <point x="1083.25" y="168.0" />
+              <point x="1719.25" y="168.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2">
+              <point x="34.0" y="-14.5" />
+              <point x="889.1818181818182" y="54.0" />
+              <point x="983.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/org.slf4j:slf4j-api:jar:1.7.7">
+              <point x="-18.5" y="-14.5" />
+              <point x="522.25" y="54.0" />
+              <point x="492.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/fastdfs_client:fastdfs_client:jar:1.25">
+              <point x="-33.25" y="-14.5" />
+              <point x="1007.25" y="158.0" />
+              <point x="180.0" y="158.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6">
+              <point x="-34.0" y="-14.5" />
+              <point x="821.1818181818182" y="54.0" />
+              <point x="701.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/commons-io:commons-io:jar:1.3.2">
+              <point x="23.75" y="-14.5" />
+              <point x="1064.25" y="148.0" />
+              <point x="1457.75" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2">
+              <point x="4.75" y="-14.5" />
+              <point x="1045.25" y="128.0" />
+              <point x="1185.75" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.7.2" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.7.2/org.apache.commons:commons-pool2:jar:2.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5">
+              <point x="-4.75" y="-14.5" />
+              <point x="1035.75" y="128.0" />
+              <point x="855.1818181818182" y="128.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.6.4">
+              <point x="-23.75" y="-14.5" />
+              <point x="1016.75" y="148.0" />
+              <point x="326.5" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.5/commons-logging:commons-logging:jar:1.1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="855.1818181818182" y="54.0" />
+              <point x="851.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3shopcart:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="33.25" y="-14.5" />
+              <point x="1073.75" y="158.0" />
+              <point x="1590.25" y="158.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2/c3p0:c3p0:jar:0.9.1.1">
+              <point x="18.5" y="-14.5" />
+              <point x="559.25" y="54.0" />
+              <point x="589.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.7.2">
+              <point x="-42.75" y="-14.5" />
+              <point x="997.75" y="168.0" />
+              <point x="61.5" y="168.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/org.quartz-scheduler:quartz:jar:2.2.2">
+              <point x="-14.25" y="-14.5" />
+              <point x="1026.25" y="138.0" />
+              <point x="540.75" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/commons-net:commons-net:jar:3.3">
+              <point x="14.25" y="-14.5" />
+              <point x="1054.75" y="138.0" />
+              <point x="1332.25" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2" target="nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2">
+              <point x="-36.0" y="-14.5" />
+              <point x="1149.75" y="54.0" />
+              <point x="1105.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.31169557918298824" x="760.0" y="337.0" />
+          <SelectedNodes>
+            <node>nyist.e3:e3shopcart:0.0.1-SNAPSHOT</node>
+            <node>nyist.e3:e3-common:jar:0.0.1-SNAPSHOT/redis.clients:jedis:jar:2.7.2/org.apache.commons:commons-pool2:jar:2.3</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-sso-web/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nyist/e3/utils/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content-web/src/main/java/nyist/e3/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>e3-content-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>e3shopcart</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

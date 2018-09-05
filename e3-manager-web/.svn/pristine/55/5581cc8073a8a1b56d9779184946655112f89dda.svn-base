@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+	<!-- 开启注解扫描 -->
+	<context:component-scan base-package="nyist.e3.controller" />
+	<!-- 开启事务注解 -->
+	<mvc:annotation-driven />
+	<!-- 配置视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	<!-- 作为客户端：引用dubbo服务 -->
+	<!-- 第一步：配置调用服务的应用的名称 -->
+	<dubbo:application name="e3-manager-web"/>	
+	<!-- 第二步：配置注册中心 -->
+	<dubbo:registry address="" protocol="zookeeper"></dubbo:registry>
+	<!-- 引用具体提供的服务接口 -->
+	<dubbo:reference interface="nyist.e3.service.TbItemService" id="tbItemService"></dubbo:reference>
+</beans>

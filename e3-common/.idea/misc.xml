@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../e3-content-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-manager/e3-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-search/e3-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-shopcart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-sso/e3-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3shopcart/e3-shopcart-service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-content/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-content-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-shopcart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3shopcart/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../e3-shopcart-web/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../e3-content">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://wjs/svn/e3mall/branches" />
+                  <option value="https://wjs/svn/e3mall/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://wjs/svn/e3mall/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e3-manager">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://wjs/svn/e3mall/branches" />
+                  <option value="https://wjs/svn/e3mall/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://wjs/svn/e3mall/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e3-manager-web">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://wjs/svn/e3mall/branches" />
+                  <option value="https://wjs/svn/e3mall/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://wjs/svn/e3mall/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../e3-parent">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://wjs/svn/e3mall/branches" />
+                  <option value="https://wjs/svn/e3mall/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://wjs/svn/e3mall/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

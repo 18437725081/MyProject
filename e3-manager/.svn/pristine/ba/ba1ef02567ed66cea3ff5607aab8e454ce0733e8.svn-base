@@ -1,0 +1,112 @@
+package nyist.e3.service.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+
+import nyist.e3.mapper.TbItemDescMapper;
+import nyist.e3.mapper.TbItemMapper;
+import nyist.e3.pojo.TbItem;
+import nyist.e3.pojo.TbItemDesc;
+import nyist.e3.pojo.TbItemExample;
+import nyist.e3.pojo.TbItemExample.Criteria;
+import nyist.e3.pojo.mydefine.EasyUIResult;
+import nyist.e3.service.TbItemService;
+import nyist.e3.utils.E3Result;
+import nyist.e3.utils.IDUtils;
+
+@Service
+public class TbItemServiceImpl implements TbItemService {
+	@Autowired
+	private TbItemMapper itemMapper;
+	@Autowired
+	private TbItemDescMapper itemDescMapper;
+
+	public TbItem getItemById(Long id) {
+		TbItem tbItem = itemMapper.selectByPrimaryKey(id);
+
+		return tbItem;
+
+		/*
+		 * TbItemExample example = new TbItemExample(); Criteria criteria =
+		 * example.createCriteria(); criteria.andCidEqualTo(id); List<TbItem>
+		 * list = itemMapper.selectByExample(example); if (list != null &&
+		 * list.size() > 0) { return list.get(0); } return null;
+		 */
+	}
+
+	/**
+	 * 完成商品信息的分页查询
+	 */
+	@Override
+	public EasyUIResult findItemList(Integer page, Integer rows) {
+		// 1.设置分页信息
+		PageHelper.startPage(page, rows);
+		// 2.执行查询
+		TbItemExample example = new TbItemExample();
+		List<TbItem> list = itemMapper.selectByExample(example);
+		// 3.取分页信息
+		PageInfo<TbItem> info = new PageInfo<>(list);
+		// 4.处理返回结果对象，返回json数据
+		EasyUIResult result = new EasyUIResult(info.getTotal(), list);
+		return result;
+	}
+	
+	/**
+	 * 完成图片上传的功能
+	 * 1.生成图片的id值
+	 * 2.补全商品的属性
+	 * 3.添加商品
+	 * 4.添加商品描述
+	 */
+	@Override
+	public E3Result save(TbItem item, String desc) {
+		//使用工具类生成商品的id值
+		long id = IDUtils.genItemId();
+		item.setId(id);
+		item.setStatus((byte)1);
+		item.setCreated(new Date());
+		item.setUpdated(new Date());
+		//向商品表中添加商品信息
+		itemMapper.insert(item);
+		
+		
+		//向商品描述表中封装数据
+		TbItemDesc itemDesc = new TbItemDesc();
+		itemDesc.setItemId(id);
+		itemDesc.setCreated(new Date());
+		itemDesc.setUpdated(new Date());
+		itemDesc.setItemDesc(desc);
+		itemDescMapper.insert(itemDesc);
+		//返回状态码200
+		return E3Result.ok();
+	}
+
+	/**
+	 * 删除商品的功能
+	 */
+	@Override
+	public E3Result delete(String ids) {
+		int i=0;
+		if(StringUtils.isNotBlank(ids)) {
+			String[] split = ids.split(",");
+			for (String id : split) {
+				TbItemExample example = new TbItemExample();
+				Criteria criteria = example.createCriteria();
+				criteria.andIdEqualTo(Long.parseLong(id));
+				i = itemMapper.deleteByExample(example);
+				
+			}
+		}
+		if(i>0) {
+			return E3Result.ok();
+		}
+		return E3Result.ok("数据删除失败");
+	}
+}

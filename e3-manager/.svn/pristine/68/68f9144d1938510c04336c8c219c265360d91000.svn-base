@@ -1,0 +1,20 @@
+package nyist.e3.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import nyist.e3.mapper.TbItemMapper;
+import nyist.e3.pojo.TbItem;
+import nyist.e3.service.TbItemService;
+
+@Service
+public class TbItemServiceImpl implements TbItemService{
+	@Autowired
+	private TbItemMapper itemMapper;
+	
+	public TbItem getItemById(Long id) {
+		TbItem tbItem = itemMapper.selectByPrimaryKey(id);
+		return tbItem;
+		
+	}
+}
