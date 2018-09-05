@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	window.onload=function(){
+		//1.定义变量表示5秒的时间
+		var time=5;
+		//2.获得5秒的标签
+		var second = document.getElementById("second");
+		//2.设置定时器，实现技术功能
+		timer = setInterval(function(){
+			//在客户端实时显示time的值
+			second.innerHTML=time;
+			//time的值完成减一操作
+			time--;
+			if(time==0){
+				//清除定时操作，跳转到指定的百度页面
+				clearInterval(timer);		
+				//将页面跳转到指定的百度界面
+				location.href="http://www.baidu.com";
+			}	
+		},1000);
+		
+	}
+</script>
+</head>
+
+<body>
+	<span>你要访问的资源<span style="color:red" id="second">5</span>秒后完成跳转，如果没有跳转，点击<a href="http://www.baidu.com">这里</a></span>
+</body>
+</html>
